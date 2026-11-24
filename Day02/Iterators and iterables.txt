@@ -1,0 +1,39 @@
+Iterators and iterables
+------------------------
+Iterators 	An object that produces elements	iter(list)
+		one at a time
+
+Iterables	an object that can be iterated		list, tuple, 							dictionary
+
+Iteration	The process of accessing elements	for loop
+
+
+Functions
+---------
+First class function - any function that takes another function as an argument or returns a function as a return value 
+
+
+def callMe():
+    print("Apples from ooty.....")
+    
+    
+def fun(fnc):
+    print("Hello......")
+    fnc()
+    print("Hi.......")
+    print("-" * 60)
+    
+    def defineMe():
+        print("Oranges from kanpur......")
+
+    return defineMe
+        
+def funcallback(fnc):
+    print("Mera bharat mahan.....")
+    fnc()
+    print("India is great.......")
+    
+funcallback(fun(callMe))
+
+
+
