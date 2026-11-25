@@ -1,0 +1,61 @@
+Assignment
+----------
+
+sort these months according to the calendar
+
+months = ['dec', 'aug', 'apr', 'nov', 'feb', 'oct', 'jan', 'mar', 'may', 'jul', 'sep', 'jun']
+
+
+Object-Oriented Programming – Advanced
+• Advanced class design 
+• Inheritance and composition 
+• Abstract classes and interfaces 
+• Magic and special methods 
+• Properties and data classes 
+
+class in python
+---------------
+
+class test:
+   pass
+
+
+we need
+
+a. abstraction
+b. encapsulation
+c. inheritance
+d. polymorphism
+e. composition
+f. design pattern
+g. multiple inheritance
+h. Abstract Base class
+i. Class method
+j. Static method
+k. operator overloading (magic methods)
+l. properties
+
+Class Method
+------------
+Methods that belong to a class rather than a object(instance)
+
+class methods are implemented using a decorator @classmethod
+
+the first parameter for this method will be a cls which refers to a class itself
+
+
+Write a magic method for all arithmetic operators
+add
+sub
+mul
+div
+
+
+
+
+
+
+
+
+
+
