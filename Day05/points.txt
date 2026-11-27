@@ -1,0 +1,96 @@
+The behaviour of the function changes based on the arguments passed to it.
+
+Movie Theatre
+-------------
+
+Theatre(function)  -> ticket(object)
+
+seating
+--------
+platinum	- recliner
+gold class	- broader, pushback
+club class	- narrow
+ordinary	- narrow - front of the screen
+
+
+ATM (function)
+---
+shopping card 	-	40k per day
+Gold card	-	l lakh per day
+Platinum card	-	2.5 lakhs per day
+
+Encapsulation
+-------------
+__privateVariable
+
+_protectedVariable
+
+
+Modules, Packages, and Environment Management
+
+• Python modules and packages 
+• Package structure and imports 
+• Virtual environments 
+• Dependency management 
+• Creating reusable Python components 
+
+
+Virtual environments
+
+Modules	- Modules are like libraries	
+
+Packages - Packages are folders that has one or more modules in it
+
+
+installable packages
+--------------------
+pip install pandas => pandas.whl
+
+pip install comcast.whl
+
+import com
+	
+
+
+Modules
+-------
+
+import module_name
+
+what will happen in the background
+
+1. check if the lib is present in the standard lib path
+
+2. if path is present then access the module else throw error
+
+3. when the module is accessed then it first converts the python file to a compiled copy or byte code format and then import it into the current program.   .py file will be converted to .pyc file
+
+4. if the module is already imported once then the second time onwards python will check for the date and time of creation of 
+.py file and .pyc file. It expects .pyc file to have the latest date and time, else it will recompile .py file and create a new .pyc file assuming that there were changes in the code
+
+5. check for .pth file in python native directory and import all the path into sys.path
+
+
+
+from mypackage import mymodule
+
+from mypackage import *
+
+Package to have a file  __init__.py
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
